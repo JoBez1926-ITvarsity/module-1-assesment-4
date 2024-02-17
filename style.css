@@ -1,0 +1,50 @@
+body{
+    background-color: lightcyan; /*styling the webpage background color*/
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: forestgreen;
+    text-decoration: underline;
+    text-decoration-style: double;
+ }
+
+th{
+    font-family: sans-serif;
+    font-weight: 900;
+    background-color: forestgreen;
+    color: azure;
+}
+
+table{
+    font-family: sans-serif;
+    text-align: center;
+    border-width: thick;
+    border-collapse: collapse;
+    border-style: groove;
+    border-color: forestgreen;
+    background-color: azure;
+}
+
+tr:nth-child(even){  /*making every even index row lightgreen in colour. index starts at 1st table row(th data) */
+    background-color: lightgreen;
+}
+
+.center{ /*centering the table*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{ /*removing the underline from the hyperlink text*/
+    text-decoration:none
+}
+
+
+/*
+References
+https://www.youtube.com/watch?v=XYpDp7Y4xWU&t=15s
+https://www.w3schools.com/csSref/sel_nth-child.php
+https://www.youtube.com/watch?v=sLAunIX5RXw&t=264s
+*/
